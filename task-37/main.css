@@ -8,20 +8,24 @@ header {
 	padding: 0 15%;
 	margin-bottom: 50px;
 }
+li {
+	display: inline;
+	cursor: pointer;
+}
 .login{
 	list-style: none;
 	text-align: center;
 	height: 50px;
 	line-height: 50px;
 }
-.login a {
+.login{
 	height: 50px;
 	width: 80px;
 	color: #fff;
 	display: inline-block;
 	text-decoration:none;
 }
-.login a:hover {
+.login:hover {
 	background-color: #2196f3;
 }
 .mask {
